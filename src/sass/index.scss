@@ -1,2 +1,25 @@
 @import './common';
 @import './example';
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.photo-card {
+
+    width: 300px;
+
+}
+
+img {
+    width: 300px;
+    height: 250px;
+}
