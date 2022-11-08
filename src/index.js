@@ -1,5 +1,5 @@
 import { fetchImages } from "./js/fetchimages";
-import { render } from "./js/renderImages";;
+import { render } from "./js/renderImages";
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 
