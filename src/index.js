@@ -1,5 +1,6 @@
-import { fetchImages } from "./js/fetchimages";
-import { render } from "./js/renderImages";
+import './sass/main.scss';
+import { fetchImages } from './js/fetchImages';
+import { render } from './js/renderImages';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 
