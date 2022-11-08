@@ -5,21 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
     <form class="search-form" id="search-form">
       <input
+        class="search-input"
         type="text"
         name="searchQuery"
         autocomplete="off"
         placeholder="Search images..."
       />
-      <button type="submit">Search</button>
+      <button type="submit" class="search-btn">Search</button>
     </form>
     <div class="gallery">
       <!-- Obraz karty -->
     </div>
-    <button type="button" class="load-more is-hidden">Load more</button>
+    <!--<button type="button" class="load-more">Load more</button>-->
+    <a class="top-btn" title="Return to top">
+      <span class="material-icons">arrow_upward</span></a
+    >
   </body>
 </html>
